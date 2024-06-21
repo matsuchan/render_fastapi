@@ -54,6 +54,6 @@ def index():
     return HTMLResponse(content=html_content, status_code=200)
 
 @app.post("/present")
-
-async def take_present(お返し):
-    return {"response": f"サーバです。メリークリスマス！ {プレゼント}ありがとう。お返しは{お返し}です。"}  # f文字列というPythonの機能を使っている
+async def present (プレゼント):
+    async def okasesi(お返し):
+        return {"response": f"サーバです。メリークリスマス！ {プレゼント}ありがとう。お返しは{お返し}です。"}  # f文字列というPythonの機能を使っている
