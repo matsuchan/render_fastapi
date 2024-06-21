@@ -47,7 +47,7 @@ def index():
   <h2 style="color: #ffffff; background-color: #00ff00;">サブの見出し</h2>
   <p style="color: #ff0000">本文</p>
   <h2 style="color: #ffffff; background-color: #00ff00;">サブの見出し</h2>
-  <a href="https://www.google.co.jp/" title="検索">googleへ</a>
+  <a href="https://www.google.co.jp/" title="検索">googleの検索ページへ</a>
 </body>
 </html>
     """
