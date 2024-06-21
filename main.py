@@ -36,7 +36,6 @@ def omikuji():
 def index():
     html_content = """
 <head>
-  <meta charset="UTF-8">
 </head>
 <body>
   <h1 style="background-color: #00ff00;">見出しレベル1</h1>
