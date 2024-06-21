@@ -46,7 +46,6 @@ def index():
             <p style="color: #ff0000">あいうえお</p>
             <h2 style="color: #ffffff; background-color: #00ff00;">見出しレベル2</h2>
             <p style="color: #ff0000">かきくけこ</p>
-            <a href="https://www.google.co.jp/" title="検索">ググる</a>
         </body>
     </html>
     """
