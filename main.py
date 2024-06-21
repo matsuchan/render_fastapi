@@ -54,5 +54,5 @@ def index():
     return HTMLResponse(content=html_content, status_code=200)
 
 @app.post("/present")
-def okasesi(お返し,プレゼント):
+def okasesi(プレゼント,お返し):
         return {"response": f"サーバです。メリークリスマス！ {プレゼント}ありがとう。お返しは{お返し}です。"}
